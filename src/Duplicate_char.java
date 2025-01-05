@@ -1,5 +1,5 @@
 public class Duplicate_char {
-    String str = "pooja";
+    String str = "poojja";
     char[] ch = str.toCharArray();
 
     public void search(){
