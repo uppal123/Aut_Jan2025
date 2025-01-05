@@ -26,18 +26,38 @@ public class ReverseString {
                 charactersName.put(ch[i], 1);
             }
         }
-
         System.out.println(charactersName);
         System.out.println(withoutDuplicates);
+    }
+
+    public void testForEach() {
+        char[] ch = str.toCharArray();
+
+        for (char c:  ch) {
+            System.out.print(c);
+        }
     }
 
     public static void main(String[] args) {
         ReverseString r = new ReverseString();
        // r.reverse();
-        r.eliminateDuplicate();
+        //r.eliminateDuplicate();
+        //r.testForEach();
         //r.testStrings();
+        r.testBreakAndContinue();
     }
 
+    public void testBreakAndContinue() {
+        char[] ch = str.toCharArray();
+
+        for (int i = 0; i < ch.length; i++) {
+            if (ch[i] == 'j') {
+                continue;
+                //break;
+            }
+            System.out.print(ch[i]);
+        }
+    }
     public void testStrings() {
         String name1 = "Pooja";
         String name2 = "Pooja";
