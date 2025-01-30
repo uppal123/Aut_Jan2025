@@ -1,5 +1,4 @@
 package Ex_02_Java_Prog_Practice;
-
 import java.util.Scanner;
 
 public class ATM_Withdraw {
