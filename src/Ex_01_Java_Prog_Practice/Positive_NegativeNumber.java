@@ -1,4 +1,4 @@
-package Java_Prog_Practice;
+package Ex_01_Java_Prog_Practice;
 
 import java.util.Scanner;
 

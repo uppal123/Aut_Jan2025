@@ -1,6 +1,5 @@
-package Java_Prog_Practice;
+package Ex_01_Java_Prog_Practice;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Vowel_consonent {
