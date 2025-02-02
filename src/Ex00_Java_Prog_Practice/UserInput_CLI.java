@@ -1,3 +1,5 @@
+package Ex00_Java_Prog_Practice;
+
 public class UserInput_CLI {
     public static void main(String[] args) {
         //Take a user input - Name, Age and Salary and print them in the end.

@@ -1,3 +1,5 @@
+package Ex00_Java_Prog_Practice;
+
 import java.util.Scanner;
 
 public class StringPalindrom {

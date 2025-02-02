@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Ex00_Java_Prog_Practice;
+
 import java.util.Scanner;
 
 public class Count_Vowels_consonants {

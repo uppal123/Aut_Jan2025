@@ -1,3 +1,5 @@
+package Ex00_Java_Prog_Practice;
+
 public class Duplicate_char {
     String str = "poojja";
     char[] ch = str.toCharArray();

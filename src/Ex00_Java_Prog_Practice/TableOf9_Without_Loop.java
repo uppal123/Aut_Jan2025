@@ -1,3 +1,5 @@
+package Ex00_Java_Prog_Practice;
+
 public class TableOf9_Without_Loop {
 
     public static void main(String[] args) {
