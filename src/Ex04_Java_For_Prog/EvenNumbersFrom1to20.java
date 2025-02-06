@@ -1,4 +1,4 @@
-package Ex04_Java_Prog;
+package Ex04_Java_For_Prog;
 
 public class EvenNumbersFrom1to20 {
     public static void main(String[] args) {

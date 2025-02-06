@@ -17,6 +17,5 @@ public class Palindrome {
         else{
             System.out.println(reverse + " is not palindrome");
         }
-
     }
 }

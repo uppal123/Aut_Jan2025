@@ -25,13 +25,10 @@ public class Swap_number {
         b = a / b; // 10
         a = a / b;
         System.out.println("number after swap without 3rd variable: " +a +" " +b);
-
     }
 
     public static void main(String[] args) {
         Swap_number s = new Swap_number();
-        //s.swap();
-        //s.swapWithoutThirdVariable();
         boolean result = s.checkGreaterNumber(s.a, s.b);
         System.out.println(result);
     }

@@ -1,10 +1,8 @@
 import java.util.ArrayList;
-
 /// [1,3,0,0,88,90,78, 0, 0]
 public class ArraySum {
 
     //int[] a = new int[10];
-//
   // ArrayList<Integer> arr = new ArrayList<Integer>();
 
     public int numberOfZeros(int [] numberArr) {
