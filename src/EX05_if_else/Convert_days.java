@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Convert_days {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no. of days: ");
-        int day = sc.nextInt();
+        System.out.println("Enter no. of days:");
+        int days = sc.nextInt();
         //Assume 1 year = 365 days.
         //Assume 1 month = 30 days
         //Convert the Days into Years, Month and days and Print it.
@@ -15,23 +15,26 @@ public class Convert_days {
         int year= 0;
         int month = 0;
         int leftdays=0;
-       if(day>=365){
-           year= day/365; //400/365= 1
+       if(days>=365){
+           year= days/365; //400/365= 1
            System.out.println("no. of years are: " +year);
-           day= day%365; //400%30= 35
-           month= day/30; //35/30=1
+           days= days%365; //400%30= 35
+           month= days/30; //35/30=1
            System.out.println("no. of months are: " +month);
-           leftdays= day%30;//35%30=5
+           leftdays= days%30;//35%30=5
            System.out.println("no. of days are: " +leftdays);
        }
-       else if(day<365 && day>=30){
-           month= day/30;
+       else if(days<365 && days>=30){
+           month= days/30;
            System.out.println("no. of months are: " +month);
-           leftdays= day%30;
+           leftdays= days%30;
            System.out.println("no. of days are: " +leftdays);
        }
-       else if(day<30){
-           System.out.println("no. of days are: " +day);
+       else if(days<=0){
+           System.out.println("Invalid input or zero days.");
+       }
+       else{
+           System.out.println("no. of days are: " +days);
        }
 
     }
