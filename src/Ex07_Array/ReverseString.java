@@ -6,8 +6,7 @@ public class ReverseString {
 //        StringBuilder sb = new StringBuilder(sent);
 //        System.out.println(sb.reverse().toString());
         String resultString = new String();
-        String regex = " ";
-        String arr[]= sentence.split(regex);
+        String arr[]= sentence.split(" ");
         for(int i= 0; i<= arr.length-1; i++){
             String reverse= "";
             String indexStr = arr[i];

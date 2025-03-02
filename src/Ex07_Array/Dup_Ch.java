@@ -1,6 +1,6 @@
 package Ex07_Array;
 
-public class Dup_String {
+public class Dup_Ch {
     public static void main(String[] args) {
         String str= "Poojja";
         char[] ch= str.toCharArray();

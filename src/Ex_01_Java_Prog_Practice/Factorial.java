@@ -6,10 +6,8 @@ public class Factorial {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int num = sc.nextInt();
-
         int oldNumber = num;
         int result = 1;
-
         while(num > 0){
             result= result * num;
             num = num - 1;

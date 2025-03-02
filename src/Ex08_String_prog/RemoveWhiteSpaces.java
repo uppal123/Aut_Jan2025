@@ -9,7 +9,8 @@ public class RemoveWhiteSpaces {
             }
             System.out.print(str.charAt(i));
         }
-//        str= str.replaceAll("\\s", "");
-//        System.out.println(str);
+        System.out.println(" ");
+        str= str.replaceAll("\\s", "");
+        System.out.println(str);
     }
 }

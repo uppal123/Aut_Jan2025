@@ -11,6 +11,7 @@ public class ReverseSentenceArray {
                 reverse= reverse+ ch.charAt(j);
             }
             reverse += " ";
+           // reverse= reverse+ " ";
         }
         System.out.println(reverse);
     }
