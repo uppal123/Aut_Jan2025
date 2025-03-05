@@ -12,4 +12,5 @@ public class OOPS_Encapsulation {
 //git checkout -b oops_programs origin/master
 
 // git branch branch_name
+//git push --set-upstream origin branch_name - kahaan bhejna hai
 // git checkout branch_name
