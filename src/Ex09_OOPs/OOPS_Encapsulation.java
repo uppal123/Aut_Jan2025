@@ -14,7 +14,7 @@ public class OOPS_Encapsulation {
 // git branch branch_name //to create a branch
 //git push --set-upstream origin branch_name - to track a branch
 // git checkout branch_name // to change a branch
-//
+
 
 //git status
 //git add .
