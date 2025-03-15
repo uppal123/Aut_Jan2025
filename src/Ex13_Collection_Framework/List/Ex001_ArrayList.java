@@ -1,7 +1,6 @@
-package Ex13_Collection_Framework;
+package Ex13_Collection_Framework.List;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Ex001_ArrayList {
     public static void main(String[] args) {

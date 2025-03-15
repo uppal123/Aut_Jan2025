@@ -1,4 +1,4 @@
-package Ex13_Collection_Framework;
+package Ex13_Collection_Framework.List;
 
 import java.util.LinkedList;
 import java.util.List;

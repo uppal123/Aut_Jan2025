@@ -31,7 +31,7 @@
 | **Topic**                      | **Subtopics Covered** |
 |--------------------------------|----------------------|
 | **Exception Handling**         | Try-catch, Finally, Throw, Throws, Custom Exceptions |
-| **Collections Framework**      | List, Set, Map, Queue, Iterators, Streams |
+| **Collections Framework**      | Ex13_Collection_Framework.Ex13_Collection_Framework.List.List, Set, Map, Queue, Iterators, Streams |
 | **Multithreading**             | Thread creation, Synchronization, Executors, Concurrency |
 | **Testing & Debugging**        | Unit Testing (JUnit, TestNG), Debugging Techniques |
 
