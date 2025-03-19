@@ -17,7 +17,9 @@ public class Ex005_examples {
         System.out.println(marks);
         //Collections-> class, it contains complete method which list, set, queue may require
         //Collection-> is interface
-        Collections.sort(marks,Collections.reverseOrder());
+//        Collections.sort(marks,Collections.reverseOrder());
+//        System.out.println(marks);
+        Collections.reverse(marks);
         System.out.println(marks);
     }
 }

@@ -11,6 +11,8 @@ public class Ex009_TreeExample {
         hm.put("name","Pooja");
         hm.put("rollno", 1);
         hm.put("phone", 678990098);
+       // hm.replace("phone", "mobile");
+       // hm.remove("phone");
         System.out.println(hm);
 
         System.out.println("-----------");

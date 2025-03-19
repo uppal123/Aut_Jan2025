@@ -43,3 +43,7 @@ public class Ex008_Set_Example {
         }
     }
 }
+//in selenium-> linkedlist
+//in api-> arraylist
+//need to remeber-> arraylist, hashmap, hashset, linkedlist
+//their function- add, remove, get, put, replace, contains, ….iterator
