@@ -1,4 +1,4 @@
-package Interview_Feb;
+package Interview_prog_practice;
 
 public class tets {
     public static void main(String[] args) {
