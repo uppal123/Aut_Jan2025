@@ -18,6 +18,7 @@ public class HashMapprog {
         }
 
         for(String tempStr: hash.keySet()) {
+            ///System.out.println(tempStr +" " +hash.get(tempStr));
             int value = hash.get(tempStr);
             if (value > 1) {
                 System.out.println("String = "+ tempStr + " and value = " + value);
