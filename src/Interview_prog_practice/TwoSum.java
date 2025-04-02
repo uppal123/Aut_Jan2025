@@ -18,21 +18,21 @@ public class TwoSum {
         }
     }
 
-    public void sumOfTwoNumberByMap() {
-        Map <Integer, Integer> map = new HashMap<>();
-//        if((map[0] + map[1] = 9)){
-
-        }
-
-
-
-    }
+//    public void sumOfTwoNumberByMap() {
+//        Map <Integer, Integer> map = new HashMap<>();
+////        if((map[0] + map[1] = 9)){
+//
+//        }
+//
+//
+//
+//    }
 
 
     public static void main(String[] args) {
         TwoSum obj = new TwoSum();
         obj.sumOfTwoNumberByLoop();
-        obj.sumOfTwoNumberByMap();
+       //x obj.sumOfTwoNumberByMap();
 
 
     }
