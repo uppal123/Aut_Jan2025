@@ -24,7 +24,7 @@ public class Duplicatechar_byMap {
 
     public static void main(String[] args) {
         Duplicatechar_byMap obj = new Duplicatechar_byMap();
-        //obj.searchCharactor("Poojjjjaaaa");
-        obj.searchCharactor("ssssouuuurrrrrrrrabbbbbbbbbbbhhhhhhhhhhhhhh");
+        obj.searchCharactor("Poojaaaa");
+       // obj.searchCharactor("ssssouuuurrrrrrrrabbbbbbbbbbbhhhhhhhhhhhhhh");
     }
 }

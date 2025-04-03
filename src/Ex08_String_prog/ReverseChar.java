@@ -12,7 +12,6 @@ public class ReverseChar {
         ch[left]= temp;
         left++;
         right--;
-        //int my_nnjl;
 
     }
         System.out.println(new String(ch));
