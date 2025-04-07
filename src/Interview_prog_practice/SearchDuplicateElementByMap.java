@@ -3,7 +3,7 @@ package Interview_prog_practice;
 import java.util.HashMap;
 import java.util.Map;
 
-public class SearchElementByMap {
+public class SearchDuplicateElementByMap {
     public static void main(String[] args) {
         int[] num = {1,2,3,1,4,4,1};
         Map<Integer, Integer> map = new HashMap<>();
